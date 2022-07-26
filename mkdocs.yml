@@ -1,5 +1,7 @@
 site_name: Ganesh's Public Docs
 theme:
   name: material
+  palette:
+    primary: cyan
 
 dev_addr: '127.0.0.1:8080'
