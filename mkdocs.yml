@@ -25,8 +25,8 @@ theme:
 # Page tree
 nav:
   - DevOps Tools:
-    - Docker: temp.md
-    - Kubernetes: temp.md
+    - Docker: tools/docker/docker.md
+    - Kubernetes: tools/kubernetes/kubernetes.md
   - Interview:
     - How to Prepare for Interview ?: temp.md
     - How to Negotiate Salary ?: temp.md
@@ -37,15 +37,15 @@ nav:
 # Plugins
 plugins:
   - search
-  - redirects:
-      redirect_maps:
-        changelog/insiders.md: insiders/changelog.md
-        conventions.md: philosophy.md
-        reference/abbreviations.md: reference/tooltips.md
-        reference/meta-tags.md: reference/index.md
-        reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
-        sponsorship.md: insiders/index.md
-        upgrading.md: upgrade.md
+  # - redirects:
+  #     redirect_maps:
+  #       changelog/insiders.md: insiders/changelog.md
+  #       conventions.md: philosophy.md
+  #       reference/abbreviations.md: reference/tooltips.md
+  #       reference/meta-tags.md: reference/index.md
+  #       reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
+  #       sponsorship.md: insiders/index.md
+  #       upgrading.md: upgrade.md
   - minify:
       minify_html: true
   - tags
