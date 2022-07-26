@@ -3,5 +3,87 @@ theme:
   name: material
   palette:
     primary: cyan
+  features:
+  - content.code.annotate
+  # - content.tabs.link
+  - content.tooltips
+  # - header.autohide
+  # - navigation.expand
+  - navigation.indexes
+  # - navigation.instant
+  # - navigation.prune
+  - navigation.sections
+  - navigation.tabs
+  # - navigation.tabs.sticky
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.share
+  - search.suggest
+  - toc.follow
+
+# Page tree
+nav:
+  - Interview:
+    - How to Ask for Hike in existing company: interview/how-to-ask-for-hike.md
+
+
+# Plugins
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        changelog/insiders.md: insiders/changelog.md
+        conventions.md: philosophy.md
+        reference/abbreviations.md: reference/tooltips.md
+        reference/meta-tags.md: reference/index.md
+        reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
+        sponsorship.md: insiders/index.md
+        upgrading.md: upgrade.md
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - pymdownx.mark
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 dev_addr: '127.0.0.1:8080'
