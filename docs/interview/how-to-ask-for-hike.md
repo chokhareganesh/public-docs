@@ -1,3 +1,9 @@
+---
+tags: 
+  - salary
+  - hike
+  - current company
+---
 # How To Ask For Hike In Existing Company 
 
 1. #### Check weather you are stand with company expectation at work  OR You really deserving for hike
