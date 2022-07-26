@@ -24,8 +24,14 @@ theme:
 
 # Page tree
 nav:
+  - DevOps Tools:
+    - Docker: temp.md
+    - Kubernetes: temp.md
   - Interview:
-    - How to Ask for Hike in existing company: interview/how-to-ask-for-hike.md
+    - How to Prepare for Interview ?: temp.md
+    - How to Negotiate Salary ?: temp.md
+    - Not Getting much Calls ?: temp.md
+    - How to Ask for Hike in existing company ?: interview/how-to-ask-for-hike.md
 
 
 # Plugins
