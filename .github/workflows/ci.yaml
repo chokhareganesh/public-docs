@@ -1,0 +1,27 @@
+name: ci 
+on:
+  push:
+    branches:
+      - master 
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code 
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: install python dependencies
+        run: pip install -r requirements.txt
+
+      - name: mkdocs build
+        run: mkdocs build
+
+      - name: publish doc
+        run: mkdocs gh-deploy
