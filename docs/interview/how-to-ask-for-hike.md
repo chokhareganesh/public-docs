@@ -11,8 +11,9 @@ tags:
    1. Check salary of same work with other job profile.
    2. Number of experience 
    3. Check with friends
-   4. [https://www.levels.fyi/](https://www.levels.fyi/)
-   5. [https://www.naukri.com/](https://www.naukri.com/)
+   4. Compare your pat at:
+    - i. [https://www.levels.fyi/](https://www.levels.fyi/)
+    - ii. [https://www.naukri.com/](https://www.naukri.com/)
 3. #### Check for Company/Industry
    1. Check for downfall 
    2. Check for is company hiring new employee
